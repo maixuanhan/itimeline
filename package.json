@@ -1,0 +1,32 @@
+{
+    "name": "itimeline",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "mocha test/*.spec.ts test/**/*.spec.ts",
+        "lint": "tslint --format verbose -c tslint.json -p tsconfig.json",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maixuanhan/itimeline.git"
+    },
+    "author": "Han Mai",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/maixuanhan/itimeline/issues"
+    },
+    "homepage": "https://github.com/maixuanhan/itimeline#readme",
+    "devDependencies": {
+        "@types/chai": "^4.2.21",
+        "@types/mocha": "^9.0.0",
+        "@types/node": "^16.7.1",
+        "chai": "^4.3.4",
+        "mocha": "^9.1.0",
+        "ts-node": "^10.2.1",
+        "tslint": "^6.1.3",
+        "typescript": "^4.3.5"
+    }
+}
